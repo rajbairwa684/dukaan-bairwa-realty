@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="BAIRWA REALTY - Jaipur real estate">
+<title>BAIRWA REALTY | Building Trust. Creating Wealth.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--n:#061a35;--n2:#0b2a50;--g:#e8b84b;--w:#fff;--c:#f5f3ed;--t:#17243a}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Montserrat,Arial,sans-serif;color:var(--t);background:var(--c);line-height:1.5}
+a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(6,26,53,.98);color:#fff;border-bottom:1px solid var(--g)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{display:flex;align-items:center;gap:9px}.mark{width:48px;height:48px;border:2px solid var(--g);display:grid;place-items:center;color:var(--g);font-weight:800}
+.logo b{display:block;font:700 30px/1 "Cormorant Garamond",serif;letter-spacing:2px}.logo small{color:var(--g);letter-spacing:4px;font-weight:800}
+.links{display:flex;gap:22px;font-size:13px;font-weight:700}.links a:hover{color:var(--g)}
+.phone,.btn{border:1px solid var(--g);border-radius:26px;padding:11px 18px;font-weight:800}
+.phone{white-space:nowrap}.menu{display:none;background:none;color:#fff;border:1px solid var(--g);border-radius:7px;padding:8px;font-size:22px}
+.hero{min-height:600px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(3,18,38,.98),rgba(3,18,38,.82) 40%,rgba(3,18,38,.25)),url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=85") center/cover;color:#fff}
+.hero .wrap{padding:80px 0}.eyebrow{font-size:14px;font-weight:800;letter-spacing:1px}
+h1{font:700 clamp(48px,6vw,78px)/.92 "Cormorant Garamond",serif;margin:18px 0}h1 em{color:#ffd66b}
+.hero p{max-width:610px;color:#eef2f7}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0}.gold{background:var(--g);color:var(--n)}
+.pills{display:flex;flex-wrap:wrap;font-weight:800}.pills span{padding:4px 14px;border-right:1px solid var(--g)}.pills span:first-child{padding-left:0}
+.trust{background:var(--n);color:#fff;border-top:1px solid var(--g);border-bottom:1px solid var(--g)}
+.tgrid{display:grid;grid-template-columns:repeat(5,1fr)}.trustitem{padding:18px 12px;border-right:1px solid #ffffff55;font-size:12px;font-weight:700}.trustitem:last-child{border:0}.ico{color:var(--g);font-size:24px;margin-right:8px}
+section{padding:70px 0}.head{text-align:center;margin-bottom:32px}.kicker{color:#9b6b12;font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+h2{font:700 52px/1 "Cormorant Garamond",serif;color:var(--n);margin:6px}.sub{color:#667085}
+.services{background:#f8f7f2}.six{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.card{background:#fff;border:1px solid #d9cba7;border-radius:12px;overflow:hidden;box-shadow:0 8px 22px #061a3512}.pic{height:140px;background-size:cover;background-position:center}
+.cardbody{background:var(--n);color:#fff;text-align:center;padding:12px}.cardbody h3{font-size:15px}.cardbody p{font-size:10px;color:#dbe3ee}
+.projects{background:#fff}.four{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.project .pic{height:190px}.project .cardbody{text-align:left}.project .cardbody p{font-size:11px;margin-top:3px}
+.about{background:var(--n);color:#fff}.aboutgrid{display:grid;grid-template-columns:1fr 1.25fr;gap:42px;align-items:center}.portrait{min-height:350px;border-radius:16px;background:url("https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=900&q=85") center/cover}.about h2{color:#fff;text-align:left}.about p{color:#dce5ef;margin:10px 0}.sig{font:700 28px "Cormorant Garamond",serif;color:var(--g)}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:38px}.stat{border:1px solid #e8b84baa;border-radius:10px;padding:15px;text-align:center}.stat strong{display:block;color:var(--g);font-size:24px}.stat span{font-size:10px}
+.cta{background:linear-gradient(90deg,#061a35ee,#061a35bb),url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85") center/cover;color:#fff;text-align:center;padding:52px 0}.cta h2{color:#fff}.cta p{margin:7px 0 20px}
+footer{background:#030f20;color:#fff;padding:45px 0 15px;border-top:1px solid var(--g)}.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:30px}.foot h3{color:var(--g);font-size:13px}.foot p,.foot a{display:block;color:#cbd5e1;font-size:12px;margin:6px 0}.bottom{border-top:1px solid #ffffff22;margin-top:30px;padding-top:12px;text-align:center;color:#94a3b8;font-size:10px}
+@media(max-width:900px){.links{display:none}.menu{display:block}.phone{display:none}.six{grid-template-columns:repeat(3,1fr)}.four{grid-template-columns:repeat(2,1fr)}.tgrid{grid-template-columns:repeat(2,1fr)}.aboutgrid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr)}.foot{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.nav{height:68px}.logo b{font-size:24px}.mark{width:42px;height:42px}.hero{min-height:650px}.hero .wrap{padding:55px 0}.six{grid-template-columns:repeat(2,1fr)}.four{grid-template-columns:1fr}.tgrid{grid-template-columns:1fr}.trustitem{border-right:0;border-bottom:1px solid #ffffff22}section{padding:55px 0}h2{font-size:43px}.stats{grid-template-columns:repeat(2,1fr)}.foot{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><nav class="wrap nav">
+<a class="logo" href="#home"><span class="mark">BR</span><span><b>BAIRWA</b><small>REALTY</small></span></a>
+<div class="links"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#properties">Properties</a><a href="#why">Why Us</a><a href="#contact">Contact</a></div>
+<a class="phone" href="tel:+916377547645">☎ +91 63775 47645</a><button class="menu">☰</button>
+</nav></header>
+
+<main>
+<section id="home" class="hero"><div class="wrap">
+<div class="eyebrow">JAIPUR'S TRUSTED REAL ESTATE PARTNER</div>
+<h1>Your Dream Property,<br><em>Our Expertise!</em></h1>
+<p>Buy, sell, rent and invest with a trusted real estate partner focused on verified properties, transparent guidance and long-term value.</p>
+<div class="actions"><a class="btn gold" href="#properties">Explore Properties →</a><a class="btn" href="https://wa.me/916377547645" style="color:#fff">WhatsApp Us</a></div>
+<div class="pills"><span>Buy</span><span>Sell</span><span>Rent</span><span>Invest</span></div>
+</div></section>
+
+<div class="trust"><div class="wrap tgrid">
+<div class="trustitem"><span class="ico">🛡</span>Verified & Genuine Properties</div><div class="trustitem"><span class="ico">🏢</span>JDA / RERA Approved Projects</div><div class="trustitem"><span class="ico">⚖</span>Legal & Financial Guidance</div><div class="trustitem"><span class="ico">🤝</span>Trusted by 1000+ Clients</div><div class="trustitem"><span class="ico">📍</span>Best Locations in Jaipur</div>
+</div></div>
+
+<section id="services" class="services"><div class="wrap"><div class="head"><div class="kicker">What We Do</div><h2>Our Services</h2><p class="sub">Complete Real Estate & Property Solutions Under One Roof</p></div>
+<div class="six">
+<article class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80')"></div><div class="cardbody"><h3>Buy & Sell</h3><p>Best Deals, Best Value</p></div></article>
+<article class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=700&q=80')"></div><div class="cardbody"><h3>Rent & Lease</h3><p>Find Your Perfect Space</p></div></article>
+<article class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=80')"></div><div class="cardbody"><h3>Investment Advisory</h3><p>Smart Investment, Bigger Returns</p></div></article>
+<article class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=700&q=80')"></div><div class="cardbody"><h3>Construction</h3><p>Build Your Vision</p></div></article>
+<article class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=700&q=80')"></div><div class="cardbody"><h3>Legal & Loan</h3><p>Hassle-Free Process</p></div></article>
+<article class="card"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=80')"></div><div class="cardbody"><h3>Design & Planning</h3><p>Modern & Functional</p></div></article>
+</div></div></section>
+
+<section id="projects" class="projects"><div class="wrap"><div class="head"><div class="kicker">Jaipur Real Estate</div><h2>Featured Projects</h2><p class="sub">Premium Locations • Growth Corridors • Excellent ROI</p></div>
+<div class="four">
+<article class="card project"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80')"></div><div class="cardbody"><h3>Residential Plots</h3><p>JDA Approved • Growth Locations</p></div></article>
+<article class="card project"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80')"></div><div class="cardbody"><h3>Villas & Independent Houses</h3><p>Luxury Living • Premium Communities</p></div></article>
+<article class="card project"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=900&q=80')"></div><div class="cardbody"><h3>Flats & Apartments</h3><p>Modern Lifestyle • Prime Locations</p></div></article>
+<article class="card project"><div class="pic" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80')"></div><div class="cardbody"><h3>Commercial Spaces</h3><p>Business Growth • High Visibility</p></div></article>
+</div></div></section>
+
+<section id="about" class="about"><div class="wrap"><div class="aboutgrid"><div class="portrait"></div><div><div class="kicker">Meet the Founder</div><h2>RAJENDRA BAIRWA</h2><p><b style="color:#ffd66b">Real Estate Consultant & Entrepreneur</b></p><p>Our mission is to help clients find the right property and make informed real estate decisions through verified opportunities, transparent communication and practical guidance.</p><div class="sig">Rajendra Bairwa</div><a class="btn gold" href="#contact" style="display:inline-block;margin-top:12px">Know More →</a></div></div>
+<div class="stats"><div class="stat"><strong>5+</strong><span>Years Experience</span></div><div class="stat"><strong>1000+</strong><span>Happy Clients</span></div><div class="stat"><strong>50+</strong><span>Projects</span></div><div class="stat"><strong>100+</strong><span>Locations Covered</span></div><div class="stat"><strong>4.9/5</strong><span>Client Satisfaction</span></div></div>
+</div></section>
+
+<section id="why" class="services"><div class="wrap"><div class="head"><div class="kicker">Why Choose Us</div><h2>Built on Trust</h2><p class="sub">Professional guidance from property search to final decision.</p></div>
+<div class="four"><div class="card" style="padding:25px;text-align:center"><div class="ico">✓</div><h3>Verified Opportunities</h3><p>Genuine properties and projects.</p></div><div class="card" style="padding:25px;text-align:center"><div class="ico">₹</div><h3>Value Focused</h3><p>Location, pricing and future growth.</p></div><div class="card" style="padding:25px;text-align:center"><div class="ico">⚖</div><h3>Transparent Process</h3><p>Clear communication throughout.</p></div><div class="card" style="padding:25px;text-align:center"><div class="ico">🤝</div><h3>Long-Term Support</h3><p>Support before and after the deal.</p></div></div></div></section>
+
+<section id="contact" class="cta"><div class="wrap"><h2>Ready to Invest in Jaipur?</h2><p>Let's Find Your Perfect Property Today!</p><div class="actions" style="justify-content:center"><a class="btn gold" href="tel:+916377547645">☎ +91 63775 47645</a><a class="btn" href="https://wa.me/916377547645" style="background:#16a34a;border-color:#16a34a;color:#fff">WhatsApp Us</a></div></div></section>
+</main>
+
+<footer><div class="wrap"><div class="foot"><div><div class="logo"><span class="mark">BR</span><span><b>BAIRWA</b><small>REALTY</small></span></div><p>Building Trust. Creating Wealth.</p></div><div><h3>Quick Links</h3><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div><div><h3>Our Services</h3><p>Buy & Sell</p><p>Rent & Lease</p><p>Investment Advisory</p><p>Construction</p></div><div><h3>Contact Us</h3><p>☎ +91 63775 47645</p><p>✉ hello@bairwarealty.in</p><p>📍 Jaipur, Rajasthan, India</p></div></div><div class="bottom">© 2026 BAIRWA REALTY. All Rights Reserved. • Jaipur, Rajasthan</div></div></footer>
+<script>
+document.querySelector('.menu').onclick=()=>{let x=document.querySelector('.links');x.style.display=x.style.display==='flex'?'none':'flex';x.style.position='absolute';x.style.top='68px';x.style.left='0';x.style.right='0';x.style.padding='20px';x.style.background='#061a35';x.style.flexDirection='column'};
+</script>
+</body>
+</html>
