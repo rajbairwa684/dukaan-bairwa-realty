@@ -1,1 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Janardana City Jaipur | Premium Residential Plots Near Mahindra SEZ | BAIRWA REALTY</title>
+
+<meta name="description" content="Explore Janardana City Jaipur, a premium gated township offering residential plots near Mahindra SEZ, Ring Road and Khatwara Road. Contact BAIRWA REALTY for project details and site visit.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --navy:#071a32;
+  --navy2:#0d2949;
+  --gold:#d6ad55;
+  --cream:#f7f2e8;
+  --ink:#18212b;
+  --muted:#66717d;
+  --green:#16834b;
+  --border:#ddd4c4;
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:"DM Sans",sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  line-height:1.7;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+img{
+  width:100%;
+  display:block;
+}
+
+.wrap{
+  width:min(1120px,92%);
+  margin:auto;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:rgba(7,26,50,.97);
+  color:white;
+  border-bottom:1px solid rgba(214,173,85,.3);
+}
+
+.nav{
+  min-height:72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:700;
+}
+
+.mark{
+  width:42px;
+  height:42px;
+  border:2px solid var(--gold);
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  color:var(--gold);
+  font-weight:700;
+}
+
+.logo small{
+  display:block;
+  color:var(--gold);
+  letter-spacing:2px;
+}
+
+.navlinks{
+  display:flex;
+  gap:24px;
+  font-size:14px;
+}
+
+.navlinks a:hover{
+  color:var(--gold);
+}
+
+.navbtns{
+  display:flex;
+  gap:8px;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:11px 18px;
+  border:1px solid var(--gold);
+  border-radius:5px;
+  font-weight:700;
+  font-size:14px;
+}
+
+.gold{
+  background:var(--gold);
+  color:var(--navy);
+}
+
+.whatsapp{
+  background:var(--green);
+  border-color:var(--green);
+  color:white;
+}
+
+.hero{
+  background:
+  linear-gradient(rgba(7,26,50,.72),rgba(7,26,50,.8)),
+  url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1400&q=85")
+  center/cover;
+  color:white;
+  padding:110px 0;
+}
+
+.hero h1{
+  max-width:800px;
+  font-family:"Playfair Display",serif;
+  font-size:clamp(40px,7vw,72px);
+  line-height:1.05;
+  margin-bottom:22px;
+}
+
+.hero p{
+  max-width:720px;
+  font-size:18px;
+  color:#eee;
+}
+
+.hero-actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:30px;
+}
+
+section{
+  padding:90px 0;
+}
+
+.kicker{
+  color:#98742d;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:8px;
+}
+
+h2{
+  font-family:"Playfair Display",serif;
+  font-size:42px;
+  line-height:1.15;
+  margin-bottom:15px;
+}
+
+.sub{
+  color:var(--muted);
+  max-width:750px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+  margin-top:35px;
+}
+
+.stat{
+  background:#eee5d5;
+  border:1px solid var(--border);
+  padding:24px;
+  border-radius:8px;
+}
+
+.stat strong{
+  display:block;
+  font-size:25px;
+  color:var(--navy);
+}
+
+.stat span{
+  color:var(--muted);
+  font-size:14px;
+}
+
+.two{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:50px;
+  align-items:center;
+}
+
+.feature-image{
+  border-radius:10px;
+  overflow:hidden;
+  border:1px solid var(--border);
+}
+
+.feature-image img{
+  min-height:400px;
+  object-fit:cover;
+}
+
+.points{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-top:25px;
+}
+
+.point{
+  padding:16px;
+  background:#eee5d5;
+  border-left:3px solid var(--gold);
+}
+
+.pricebox{
+  background:var(--navy);
+  color:white;
+  padding:40px;
+  border-radius:10px;
+  margin-top:30px;
+}
+
+.price{
+  color:var(--gold);
+  font-size:40px;
+  font-weight:700;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+  margin-top:35px;
+}
+
+.card{
+  background:#fbf7ef;
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:25px;
+}
+
+.card h3{
+  margin-bottom:8px;
+}
+
+.card p{
+  color:var(--muted);
+  font-size:14px;
+}
+
+.location{
+  background:#eee5d5;
+}
+
+.map{
+  width:100%;
+  height:380px;
+  border:0;
+  border-radius:10px;
+  margin-top:30px;
+}
+
+.cta{
+  background:var(--navy);
+  color:white;
+  text-align:center;
+}
+
+.cta h2{
+  color:white;
+}
+
+.cta p{
+  color:#ddd;
+  margin-bottom:25px;
+}
+
+footer{
+  background:#041225;
+  color:#ddd;
+  padding:45px 0 25px;
+}
+
+.footergrid{
+  display:grid;
+  grid-template-columns:1.5fr 1fr 1fr;
+  gap:30px;
+}
+
+footer h3{
+  color:var(--gold);
+  margin-bottom:10px;
+}
+
+footer p{
+  color:#aaa;
+  font-size:14px;
+}
+
+.bottom{
+  border-top:1px solid #24344a;
+  margin-top:30px;
+  padding-top:20px;
+  text-align:center;
+  font-size:12px;
+  color:#888;
+}
+
+@media(max-width:820px){
+  .navlinks{
+    display:none;
+  }
+
+  .grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .two{
+    grid-template-columns:1fr;
+  }
+
+  .cards{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .footergrid{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:520px){
+  .navbtns .btn{
+    padding:8px 10px;
+    font-size:12px;
+  }
+
+  section{
+    padding:65px 0;
+  }
+
+  h2{
+    font-size:34px;
+  }
+
+  .grid,
+  .cards,
+  .points,
+  .footergrid{
+    grid-template-columns:1fr;
+  }
+
+  .hero{
+    padding:80px 0;
+  }
+
+  .hero h1{
+    font-size:43px;
+  }
+
+  .hero p{
+    font-size:16px;
+  }
+
+  .feature-image img{
+    min-height:280px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="wrap nav">
+
+<a href="index.html" class="logo">
+<span class="mark">BR</span>
+<span>
+BAIRWA
+<small>REALTY</small>
+</span>
+</a>
+
+<nav class="navlinks">
+<a href="index.html">Home</a>
+<a href="#overview">Overview</a>
+<a href="#amenities">Amenities</a>
+<a href="#location">Location</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="navbtns">
+<a class="btn" href="tel:+919887799816">Call</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/919887799816?text=Hello%20BAIRWA%20REALTY%2C%20I%20want%20details%20about%20Janardana%20City%20Jaipur.">
+WhatsApp
+</a>
+</div>
+
+</div>
+</header>
+
+
+<main>
+
+<section class="hero">
+
+<div class="wrap">
+
+<div class="kicker" style="color:#e6c879">
+BAIRWA REALTY • JAIPUR
+</div>
+
+<h1>Janardana City Jaipur</h1>
+
+<p>
+Premium gated township plots near Mahindra SEZ, Ring Road and the western Jaipur growth corridor.
+</p>
+
+<div class="hero-actions">
+
+<a class="btn gold" href="#overview">
+Explore Project
+</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/919887799816?text=Hello%20BAIRWA%20REALTY%2C%20I%20am%20interested%20in%20Janardana%20City%20Jaipur%20and%20would%20like%20a%20site%20visit.">
+Book Site Visit
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="overview">
+
+<div class="wrap">
+
+<div class="kicker">Project Overview</div>
+
+<h2>A Planned Address in Jaipur's Western Corridor</h2>
+
+<p class="sub">
+Janardana City is marketed as a premium gated residential township on Main 200 Feet Khatwara Road, before Jayshree Periwal International School, with connectivity towards Mahindra SEZ, Ring Road, Ajmer Road, Jaisinghpura and Bhankrota.
+</p>
+
+<div class="grid">
+
+<div class="stat">
+<strong>₹47,900+</strong>
+<span>Advertised starting price / sq. yd.</span>
+</div>
+
+<div class="stat">
+<strong>200 Ft</strong>
+<span>Main Khatwara Road</span>
+</div>
+
+<div class="stat">
+<strong>Gated</strong>
+<span>Township concept</span>
+</div>
+
+<div class="stat">
+<strong>RAJ/P/2025/3596</strong>
+<span>RERA number shown in supplied material</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="wrap two">
+
+<div class="feature-image">
+<img
+src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=85"
+alt="Residential plotted development">
+</div>
+
+<div>
+
+<div class="kicker">Location Advantage</div>
+
+<h2>Connected to Key Growth Corridors</h2>
+
+<p>
+The project is positioned on Main 200 Feet Khatwara Road, before Jayshree Periwal International School, with access towards important western Jaipur destinations.
+</p>
+
+<div class="points">
+
+<div class="point">Mahindra SEZ</div>
+<div class="point">Ring Road</div>
+<div class="point">Ajmer Road</div>
+<div class="point">Jaisinghpura</div>
+<div class="point">Bhankrota</div>
+<div class="point">Western Jaipur</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="wrap">
+
+<div class="kicker">Pricing</div>
+
+<h2>Residential Plot Investment</h2>
+
+<div class="pricebox">
+
+<div>Advertised starting price</div>
+
+<div class="price">₹47,900 / sq. yd.</div>
+
+<p>
+Final pricing may vary depending on plot size, location, road width, corner/park-facing preference, applicable charges and availability.
+</p>
+
+<br>
+
+<a class="btn whatsapp"
+href="https://wa.me/919887799816?text=Hello%20BAIRWA%20REALTY%2C%20please%20share%20the%20latest%20Janardana%20City%20price%20and%20available%20plot%20options.">
+Get Latest Price
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="amenities">
+
+<div class="wrap">
+
+<div class="kicker">Township Features</div>
+
+<h2>Designed for Comfortable Community Living</h2>
+
+<p class="sub">
+The supplied project material highlights planned infrastructure, green spaces, security and lifestyle-oriented facilities.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌳 Green Spaces</h3>
+<p>Landscaped parks, plantation, gardens and open recreational areas.</p>
+</div>
+
+<div class="card">
+<h3>🛡️ Security</h3>
+<p>Gated entry, guard facilities, CCTV and boundary infrastructure.</p>
+</div>
+
+<div class="card">
+<h3>🏃 Recreation</h3>
+<p>Open gym, kids' play area, jogging path and community spaces.</p>
+</div>
+
+<div class="card">
+<h3>💡 Infrastructure</h3>
+<p>LED street lighting, planned roads and underground utility infrastructure.</p>
+</div>
+
+<div class="card">
+<h3>💧 Water & Sewerage</h3>
+<p>Underground water pipeline, overhead water tank and sewerage infrastructure.</p>
+</div>
+
+<div class="card">
+<h3>🏘️ Community</h3>
+<p>Temple, gazebo, discussion zones and community-oriented spaces.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="wrap">
+
+<div class="kicker">Project Highlights</div>
+
+<h2>Why Explore Janardana City?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>01 — Strategic Location</h3>
+<p>Positioned around the Khatwara Road, Ring Road and western Jaipur connectivity network.</p>
+</div>
+
+<div class="card">
+<h3>02 — Planned Township</h3>
+<p>A gated plotted development concept with planned roads, parks and infrastructure.</p>
+</div>
+
+<div class="card">
+<h3>03 — Residential Potential</h3>
+<p>An option for buyers planning a future home or evaluating long-term land ownership.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="location" class="location">
+
+<div class="wrap">
+
+<div class="kicker">Location</div>
+
+<h2>Main 200 Feet Khatwara Road, Jaipur</h2>
+
+<p>
+Before Jayshree Periwal International School, with connectivity towards Mahindra SEZ, Ring Road, Ajmer Road, Jaisinghpura and Bhankrota.
+</p>
+
+<iframe
+class="map"
+src="https://maps.google.com/maps?q=Main%20200%20Feet%20Khatwara%20Road%2C%20Jaipur%2C%20Rajasthan&output=embed"
+loading="lazy"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+
+
+<section>
+
+<div class="wrap">
+
+<div class="kicker">RERA & Verification</div>
+
+<h2>Verify Before You Book</h2>
+
+<p class="sub">
+The supplied project material displays RERA Registration No. <strong>RAJ/P/2025/3596</strong> and JDA/RERA approval representations. Buyers should independently verify current registration details, approvals, sanctioned plans, title documents, development status and applicable permissions through the relevant authorities before making a purchase decision.
+</p>
+
+</div>
+
+</section>
+
+
+<section id="contact" class="cta">
+
+<div class="wrap">
+
+<div class="kicker" style="color:#e6c879">
+SITE VISIT
+</div>
+
+<h2>Want to Explore Janardana City?</h2>
+
+<p>
+Get the latest plot availability, pricing and project information from BAIRWA REALTY.
+</p>
+
+<div class="hero-actions" style="justify-content:center">
+
+<a class="btn gold" href="tel:+919887799816">
+Call +91 98877 99816
+</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/919887799816?text=Hello%20BAIRWA%20REALTY%2C%20I%20want%20to%20book%20a%20site%20visit%20for%20Janardana%20City%20Jaipur.">
+WhatsApp for Site Visit
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+<div class="wrap">
+
+<div class="footergrid">
+
+<div>
+<div class="logo">
+<span class="mark">BR</span>
+<span>
+BAIRWA
+<small>REALTY</small>
+</span>
+</div>
+
+<br>
+
+<p>
+Building Trust. Creating Wealth 💹.
+</p>
+
+<p>
+Your trusted real-estate partner for Buy | Sell | Rent | Invest in Jaipur.
+</p>
+
+</div>
+
+<div>
+<h3>Project</h3>
+<p>Janardana City</p>
+<p>Premium Residential Plots</p>
+<p>Near Mahindra SEZ</p>
+</div>
+
+<div>
+<h3>Contact</h3>
+<p>+91 98877 99816</p>
+<p>rajbairwa684@gmail.com</p>
+<p>Jaipur, Rajasthan</p>
+</div>
+
+</div>
+
+<div class="bottom">
+© 2026 BAIRWA REALTY. All Rights Reserved.
+<br><br>
+built with ❤️ by 21.coders
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
